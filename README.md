@@ -1,6 +1,8 @@
 # timebomb
 Simple test utility for ignoring a unit test for a limited period of time.
 
+[![Build Status](https://travis-ci.org/tonicsoft/timebomb.svg?branch=master)](https://travis-ci.org/tonicsoft/timebomb)
+
 ## What is a Time Bomb?
 The obvious drawback of using your test framework's "ignore" functionality directly is that the test may be forgotten about and remain ignored indefinitely. A Time Bomb will allow the test to be ignored until a specified time, after which the test will fail, reminding you to return to it.
 
