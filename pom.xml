@@ -22,7 +22,7 @@ limitations under the License.
     <groupId>org.tonicsoft.timebomb</groupId>
     <artifactId>timebomb</artifactId>
     <packaging>pom</packaging>
-    <version>0.0.0</version>
+    <version>0.0.0-SNAPSHOT</version>
 
     <name>Time Bomb</name>
     <description>Simple test utility for temporarily ignoring unit tests.</description>
@@ -85,7 +85,7 @@ limitations under the License.
             <dependency>
                 <groupId>org.tonicsoft.timebomb</groupId>
                 <artifactId>timebomb-core-test</artifactId>
-                <version>0.0.0</version>
+                <version>0.0.0-SNAPSHOT</version>
                 <scope>test</scope>
             </dependency>
             <dependency>
@@ -108,4 +108,12 @@ limitations under the License.
             </dependency>
         </dependencies>
     </dependencyManagement>
+
+    <distributionManagement>
+        <repository>
+            <id>sonatype.snapshots</id>
+            <name>SNAPSHOT</name>
+            <url>https://oss.sonatype.org/content/repositories/snapshots</url>
+        </repository>
+    </distributionManagement>
 </project>
