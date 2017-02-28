@@ -20,7 +20,7 @@ limitations under the License.
     <parent>
         <artifactId>timebomb</artifactId>
         <groupId>org.tonicsoft.timebomb</groupId>
-        <version>0.0.0-SNAPSHOT</version>
+        <version>0.0.0</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
