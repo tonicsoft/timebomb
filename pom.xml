@@ -35,6 +35,14 @@ limitations under the License.
             <distribution>repo</distribution>
         </license>
     </licenses>
+    <developers>
+        <developer>
+            <name>Thomas Nicholl</name>
+            <email>thomas@tonicsoft.org</email>
+            <organization>tonicsoft</organization>
+            <organizationUrl>tonicsoft.org</organizationUrl>
+        </developer>
+    </developers>
 
     <scm>
         <url>https://github.com/tonicsoft/timebomb</url>
