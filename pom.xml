@@ -26,6 +26,7 @@ limitations under the License.
 
     <name>Time Bomb</name>
     <description>Simple test utility for temporarily ignoring unit tests.</description>
+    <url>https://github.com/tonicsoft/timebomb</url>
 
     <licenses>
         <license>
